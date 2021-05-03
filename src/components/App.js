@@ -69,7 +69,7 @@ function App() {
         </section>
       </PopupWithForm> 
 
-      <Footer/>
+      <Footer />
     </div>
   );
 }

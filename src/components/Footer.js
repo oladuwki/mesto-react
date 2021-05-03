@@ -1,6 +1,6 @@
 import '../index.css';
 
-function App() {
+function Footer() {
   return (
     <footer className="footer">
       <h2 className="footer__title">© 2020 Mesto Russia</h2>
@@ -8,4 +8,4 @@ function App() {
   );
 }
 
-export default App;
+export default Footer;
