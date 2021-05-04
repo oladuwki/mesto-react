@@ -1,4 +1,4 @@
-export default class Api {
+export default class Api {//я переименовал файл в ветке, но на гите почему-то он остался с большой буквы
   constructor(options) {
     this._options = options;
     console.log(this._options);
