@@ -1,7 +1,7 @@
 
 import React from "react";
 import Card from './Card';
-import { api } from '../utils/api1.js'; 
+import { api } from '../utils/api.js'; 
 
 function Main(props) {
   const [userName, setUserName] = React.useState("");
