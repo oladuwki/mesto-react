@@ -11,8 +11,10 @@ export default function Card(props) {
     const isLiked = props.card.likes.some(i => i._id === currentUser._id);
     const cardLikeButtonClassName = `element__group ${isLiked ? 'element__group_active' : ''}`;
 
-    function handleClick() {
-        props.onCardClick(props.card);
+    function handleClick(evt) {
+      if (evt.target.type !== "button"){
+        props.onCardClick(props.card);  
+      }  
     }
     function handleLikeClick() {
         props.onCardLike(props.card)
